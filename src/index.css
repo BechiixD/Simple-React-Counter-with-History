@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(56, 56, 56);
+    color: rgb(216, 216, 216);
+    font-size: 5em;
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count-container {
+    width: 75vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 5px;
+}
+.count-container div {
+    width: 50%;
+    margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.add-button, .subtract-button, .reset-button {
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: progress;
+}
+.add-button {
+    background-color: green;
+}
+.add-button:hover {
+    background-color: darkgreen;
+}
+.subtract-button {
+    background-color: red;
+}
+.subtract-button:hover {
+    background-color: darkred;
+}
+
+.history-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.history-list {
+    width: 20%;
+}
+.history-element {
+    width: 100%;
+}
+.history-element:hover {
+    background-color: rgb(37, 37, 37);
+}
+.reset-button {
+    background-color: blue;
+    height: 60px;
+}
